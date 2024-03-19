@@ -50,7 +50,10 @@ const Header = () => {
           name='input'
         />
         <button type='submit'>
-          <Search className='rounded-full h-10 px-2 w-10 bg-yellow-400 cursor-pointer ' />
+          <Search
+            onClick={() => handleSubmit}
+            className='rounded-full h-10 px-2 w-10 bg-yellow-400 cursor-pointer '
+          />
         </button>
       </form>
       <div className='flex space-x-5 mt-5 md:mt-0 '>
